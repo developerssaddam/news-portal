@@ -15,7 +15,138 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Alhamdulillah</h1>
+    <!--Header start-->
+    <header>
+      <!--top-header-->
+      <div class="top_header text-base">
+        <div class="navbar bg-base-100">
+          <div class="flex-1">
+            <a class="btn btn-ghost text-xl font-bold primaryColor">
+              <span class="p-2 rounded text-white bg-[#5D5FEF]">News</span>
+              Portal</a
+            >
+          </div>
+          <div class="flex-none">
+            <div class="dropdown dropdown-end">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost btn-circle"
+              ></div>
+              <div
+                tabindex="0"
+                class="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow"
+              >
+                <div class="card-body">
+                  <span class="font-bold text-lg">8 Items</span>
+                  <span class="text-info">Subtotal: $999</span>
+                  <div class="card-actions">
+                    <button class="btn btn-primary btn-block">View cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex gap-2 lg:gap-5 mr-2 lg:mr-5">
+              <h2 class="primaryColor font-bold">News</h2>
+              <h2 class="text-[#A3A3A3]">Blog</h2>
+            </div>
+            <div class="dropdown dropdown-end">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost btn-circle avatar"
+              >
+                <div class="w-10 rounded-full">
+                  <img
+                    alt="Tailwind CSS Navbar component"
+                    src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                  />
+                </div>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li>
+                  <a class="justify-between">
+                    Profile
+                    <span class="badge">New</span>
+                  </a>
+                </li>
+                <li><a>Settings</a></li>
+                <li><a>Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Navbar-->
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Item 1</a></li>
+                <li>
+                  <a>Parent</a>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </li>
+                <li><a>Item 3</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl">daisyUI</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Item 1</a></li>
+              <li>
+                <details>
+                  <summary>Parent</summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn">Button</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Header end-->
+    <!--Main start-->
+    <main></main>
+    <!--Main end-->
+    <!--Footer start-->
+    <footer></footer>
+    <!--Footer end-->
 
     <script src="js/app.js"></script>
   </body>
